@@ -1,0 +1,39 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse project files
+.classpath
+.settings/
+.project
+
+# Android old builds
+bin/
+gen/
+local.properties
+
+# Gradle build
+.gradle/
+build/
+
+# C/C++ compile temp files
+*.o
+*.o.d
+
+# Android 2.2 C/C++ compile
+.externalNativeBuild/
+
+# OS auto gen folder infomation
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*.vpp~*
+*.*~
+~*.*
