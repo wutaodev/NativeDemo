@@ -13,4 +13,6 @@ public class NativeUtils {
     public native static void setCallback1(OnNativeCallback callback);
 
     public native static void setCallback2(OnNativeCallback callback);
+
+    public native static void destroy();
 }

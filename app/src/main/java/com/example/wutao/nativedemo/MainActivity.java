@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements OnNativeCallback 
             case R.id.button2:
                 NativeUtils.setCallback2(this);
                 break;
+           case R.id.button3:
+                NativeUtils.destroy();
+                break;
         }
     }
 

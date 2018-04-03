@@ -36,3 +36,6 @@ Java_com_example_wutao_nativedemo_NativeUtils_setCallback1(JNIEnv *env, jclass t
 
 JNIEXPORT void JNICALL
 Java_com_example_wutao_nativedemo_NativeUtils_setCallback2(JNIEnv *env, jclass type, jobject callback);
+
+JNIEXPORT void JNICALL
+Java_com_example_wutao_nativedemo_NativeUtils_destroy(JNIEnv *env, jclass type);

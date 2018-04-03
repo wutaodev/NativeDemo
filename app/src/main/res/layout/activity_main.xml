@@ -21,4 +21,11 @@
        android:onClick="onCallback"
        android:text="回调2"/>
 
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/button3"
+       android:onClick="onCallback"
+       android:text= "释放"/>
+
 </LinearLayout>
